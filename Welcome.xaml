@@ -1,0 +1,15 @@
+﻿<Window x:Class="PROG7312_POE_ST10119567_Bulela_Tyelela.Welcome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROG7312_POE_ST10119567_Bulela_Tyelela"
+        mc:Ignorable="d"
+        Title="Welcome" Height="268.921" Width="419.521">
+    <Grid>
+        <Label Content="Hello, Please Enter Your Name" HorizontalAlignment="Left" Margin="118,47,0,0" VerticalAlignment="Top" Height="29" Width="219" FontStyle="Oblique" FontWeight="Bold"/>
+        <TextBox x:Name="txtBoxName" HorizontalAlignment="Left" Height="23" Margin="148,81,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnPlay" Content="Play!!!" HorizontalAlignment="Left" Margin="171,129,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.063,0.085" Click="btnPlay_Click"/>
+
+    </Grid>
+</Window>
